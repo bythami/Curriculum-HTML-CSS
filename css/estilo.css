@@ -31,6 +31,7 @@ body{
 
 .perfiltexto{
     position: relative;
+    text-transform: uppercase;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,7 +153,7 @@ body{
     background-color: #03a9f4;
     border-radius: 3px;
     position: relative;
-    animation: fillBars 3.5s 1;
+    animation: fillBars 4.5s 1;
 }
 .habilidade-porcentagem:before{
     content: attr(per);
@@ -222,7 +223,7 @@ body{
 }
 .info-prof .caixa{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 20px 0;
 }
 .info-prof .caixa .periodo-name{
@@ -232,13 +233,16 @@ body{
     text-transform: uppercase;
     color: #848c90;
     font-weight: 600;
+    font-size: 18px;
+    margin: 0 0 10px 0;
 }
 .info-prof .caixa .periodo-name a{
     color: #848c90;
     text-transform: none;
     text-decoration: none;
-    transition: background 0.5s linear;
+    transition: background 0.8s linear;
     margin: 0;
+    font-size: 20px;
 }
 .info-prof .caixa .periodo-name  a:hover{
     background-color: #03a9f4;
@@ -251,7 +255,13 @@ body{
 }
 .info-prof .caixa .texto h4{
     text-transform: uppercase;
-    color: #2a7da2;
+    color:  #003147;
     font-size: 16px;
     font-weight: 600;
+}
+.info-prof .caixa p{
+    line-height: 2;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 3em;
 }
